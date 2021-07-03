@@ -2,17 +2,14 @@
 inicialize duas variáveis para testá-lo, imprimindo esses resultados
 na tela.*/
 
-
-public class Area {
+public class CBBAtividadePratica3 {
   public static void main(String[] args) {
-    
-    int base = 10;
-    int altura = 5;
-    int area = base * altura;
+    float base = 10;
+    float altura = 5;
 
-    
+    float area = base * altura;
 
-    System.out.printf("A area total é: %d", area);
+    System.out.println("A area total é: " + area);
 
   }
 }
